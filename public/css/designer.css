@@ -1,0 +1,137 @@
+#poster {
+    width:375px;height:667px;border:1px solid #ccc;position:relative
+}
+#poster .bg { position:absolute;width:100%;z-index:0}
+#poster .drag[type=img] img,#poster .drag[type=thumb] img { width:100%;height:100%; }
+#poster .drag { position: absolute; width:80px;height:80px; border:1px solid #000; }
+
+
+#poster .drag[type=nickname] { width:80px;height:40px; font-size:16px; font-family: 黑体;}
+#poster .drag img {position:absolute;z-index:0;width:100%; }
+
+#poster .rRightDown,.rLeftDown,.rLeftUp,.rRightUp,.rRight,.rLeft,.rUp,.rDown{
+    position:absolute;
+    width:7px;
+    height:7px;
+    z-index:1;
+    font-size:0;
+}
+
+#poster .rRightDown,.rLeftDown,.rLeftUp,.rRightUp,.rRight,.rLeft,.rUp,.rDown{
+    background:#C00;
+}
+.rLeftDown,.rRightUp{cursor:ne-resize;}
+.rRightDown,.rLeftUp{cursor:nw-resize;}
+.rRight,.rLeft{cursor:e-resize;}
+.rUp,.rDown{cursor:n-resize;}
+.rLeftDown{left:-4px;bottom:-4px;}
+.rRightUp{right:-4px;top:-4px;}
+.rRightDown{right:-4px;bottom:-4px;}
+.rRightDown{background-color:#00F;}
+
+.rLeftUp{left:-4px;top:-4px;}
+.rRight{right:-4px;top:50%;margin-top:-4px;}
+.rLeft{left:-4px;top:50%;margin-top:-4px;}
+.rUp{top:-4px;left:50%;margin-left:-4px;}
+.rDown{bottom:-4px;left:50%;margin-left:-4px;}
+.context-menu-layer { z-index:9999;}
+.context-menu-list { z-index:9999;}
+.btn {
+    outline: none !important;
+    padding: 8px 16px;
+    border-radius: 2px;
+    font-size: 12px;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+    border: 1px solid transparent;
+}
+.btn-default {
+    background: #fdfdfd !important;
+    color: #6b6b6b;
+    border: 1px solid #efefef !important;
+    outline: none;
+}
+.btn-default:hover {
+    background: #f7f7f7 !important;
+}
+.input-group .form-control, .input-group .input-group-addon, .input-group .input-group-btn > .btn, .input-group select.form-control {
+    border-radius: 1px;
+    font-size: 12px;
+    height: 30px;
+}
+.input-group .form-control {
+    border-radius: 0;
+}
+.btn-primary {
+    background: #44abf7 !important;
+    border-color: #44abf7 !important;
+    color: #fff !important;
+}
+.btn-primary:hover {
+    background: #3c9be1 !important;
+    border-color: #3c9be1 !important;
+}
+.control-label {
+    color: #666;
+}
+.col-lg {
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    position: relative;
+    width: 140px;
+}
+.col-lg.control-label, .col-lger.control-label {
+    color: #000;
+    font-weight: normal;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.input-group .form-control, .input-group .input-group-addon, .input-group .input-group-btn > .btn, .input-group select.form-control {
+    border-radius: 1px;
+    font-size: 12px;
+    height: 30px;
+}
+.form-control {
+    background-color: #FFFFFF;
+    background-image: none;
+    border: 1px solid #efefef;
+    border-radius: 1px;
+    color: inherit;
+    display: block;
+    -webkit-transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+    font-size: 12px;
+    height: 32px;
+}
+.input-group-addon {
+    background-color: #fff;
+    border: 1px solid #efefef;
+    border-radius: 1px;
+    color: inherit;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 6px 12px;
+    text-align: center;
+}
+.layui-tab-title li a {
+    color: #333;
+    text-decoration: none;
+}
+.layui-tab-brief>.layui-tab-title .layui-this a {
+    color: #009688;
+}

@@ -1,0 +1,293 @@
+*{
+    font-size: 12px;
+}
+.layui-table td, .layui-table th,.layui-btn{
+    font-size: 12px;
+}
+.layui-elem-field legend{
+    font-size: 18px;
+}
+.layui-table td{
+    padding: 2px 5px;
+}
+.layui-nav .layui-nav-more{
+    border-color: #c2c2c2 transparent transparent;
+}
+.layui-nav .layui-nav-mored{
+    border-color: transparent transparent #c2c2c2;
+}
+.layui-elem-field{
+    margin-top: 15px !important;
+}
+.no-result {
+    text-align: center;
+    border: 1px solid #eee;
+    padding: 39px 0;
+    margin-top: 10px;
+}
+.layui-form-label,.layui-form-pane .layui-form-label{
+    width:120px;
+}
+.layui-form-pane .layui-input-block{
+    margin-left: 120px;
+}
+.layui-input-block{
+    margin-left: 150px;
+}
+.layui-operate{
+    width: 100px;
+}
+.layui-operate .layui-nav{
+    background-color: transparent;
+}
+.layui-operate .layui-nav a{
+    color: #333;
+}
+.layui-operate .layui-nav{
+    padding: 0px;
+}
+.layui-operate .layui-nav-child{
+    left: -30px;
+}
+.layui-operate .layui-nav .layui-nav-item{
+    line-height: 40px;
+}
+.layui-operate .layui-nav-child{
+    top:45px;
+}
+.img-container{
+    width: 100px;
+    display: inline-block;
+    position: relative;
+}
+.img-container.img-container-big{
+    width: 210px;
+    margin-bottom: 5px;
+}
+.img-container .remove{
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    font-size: 24px;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #eee;
+    text-align: center;
+    line-height: 22px;
+    padding: 2px;
+}
+.coupon-container-inner{
+    position: relative;
+    max-width: 200px;
+}
+.spec-container .remove,.coupon-container-inner .remove{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 26px;
+    cursor: pointer;
+}
+.layui-operate{
+    width: 120px;
+}
+.condition-container .remove{
+    height: 15px;
+    width:15px;
+    line-height: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #efefef;
+    padding: 5px;
+}
+.layui-form-label.must:after{
+    content: ' * ';
+    color: red;
+    font-size: 16px;
+}
+td img{
+    cursor: pointer;
+}
+.mgtop-10{
+    padding-top: 10px;
+}
+.alone{
+    text-align: center;
+    background-color: #009688;
+    color: #fff;
+    font-weight: 300;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    width: auto;
+    margin: auto;
+    height: 170px;
+}
+.alone a {
+    display: block;
+    padding: 50px 20px;
+    color: #fff;
+    font-size: 30px;
+}
+.layui-col-space1>* {
+    padding: 0.5px;
+}
+.alone a cite {
+    display: block;
+    padding-top: 10px;
+    font-size: 14px;
+}
+a cite {
+    font-style: normal;
+}
+input[disabled=disabled]{
+    background-color: #ddd;
+}
+.custom-addon{
+    position: relative;
+}
+.custom-addon .addon-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.custom-addon .addon-btn .layui-btn{
+    height: 30px;
+    line-height: 30px;
+}
+.fa-plugins{
+    background-image: url(/images/plugin.png);
+    background-size: 12px 14px;
+    width: 12px;
+    height: 14px;
+}
+.layui-nav-item>a>cite{
+    padding: 0 !important;
+}
+.layui-nav-tree{
+    width: 145px;
+}
+.layui-side-scroll{
+    width: 145px;
+}
+.layui-layout-admin .layui-side{
+    width: 145px;
+}
+.layui-body{
+    left:145px;
+}
+.layui-layout-admin .layui-footer{
+    left: 145px;
+}
+.layui-table.no-hover tbody tr:hover{
+    background-color: #fff !important;
+}
+.layui-table.table-pd-5 td{
+    padding: 9px 5px;
+}
+.layui-table.table-ft-15 td{
+    font-size: 15px;
+}
+.border-right{
+    border-right: 1px solid #999;
+}
+.layui-btn-gray{
+    background-color: #999;
+}
+.pd-l-10{
+    padding-left: 10px;
+}
+.goods-group .goods-item{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: inline-block;
+    margin-right: 15px;
+}
+.goods-group .img-thumbnail{
+    width: 100%;
+    height: 100%;
+    padding: 4px;
+    border: 1px solid #e9e9e9;
+}
+.goods-group .title{
+    width: 100%;
+    display: block;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    background-color: rgba(0,0,0,0.8);
+    color: #fff;
+    font-size: 12px;
+    bottom: -9px;
+    position: absolute;
+    left: 5px;
+}
+.goods-group .remove{
+    position: absolute;
+    right: -15px;
+    top: -10px;
+    font-size: 18px;
+    color: #000;
+    opacity: .3;
+    cursor: pointer;
+}
+.layui-header,.admin-login-box,.admin-login-box{
+    height: 50px;
+}
+.header-demo .layui-nav .layui-nav-item{
+    line-height: 55px !important;
+}
+.layui-layout-admin .layui-side,.layui-layout-admin .layui-body{
+    top:50px;
+}
+.layui-tab-title{
+    height: 30px;
+}
+.layui-tab-title li{
+    line-height: 30px;
+}
+.layui-form-pane .layui-form-label{
+    padding: 2px 5px;
+    height: 30px;
+    line-height: 25px;
+}
+.layui-form-label, .layui-form-pane .layui-form-label{
+    width: 80px;
+}
+.layui-tab-title .layui-this:after{
+    height: 31px;
+}
+.layui-input{
+    height: 30px;
+}
+.custom-addon .addon-btn{
+    height: 30px;
+    line-height: 30px;
+}
+.layui-field-box .layui-btn{
+    height: 28px;
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+.layui-field-box .layui-form-item{
+    margin-bottom: 0px;
+}
+.layui-form-pane .layui-input-block{
+    margin-left: 80px;
+}
+.layui-operate .copy{
+    right: 15px;
+    position: absolute;
+    top: 30px;
+}
+.layui-table .layui-form-switch i{
+    top:2px;
+}
+.layui-table .layui-form-onswitch i{
+    left: 23px;
+    top:2px;
+}
+.layui-upload-img{
+    max-width: 100%;
+}

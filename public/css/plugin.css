@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+.page-content{
+    min-height: 100px;
+}
+.page-content {
+    width: 100%;
+    background: #fff;
+    padding: 20px 30px;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.panel-default {
+    border-color: #ddd;
+}
+.panel {
+    border-radius: 2px;
+    border-color: #efefef;
+}
+.panel-default {
+    color: #8c8c8c;
+    border-color: #efefef;
+}
+.feed-activity-list {
+    width: 100%;
+    overflow: hidden;
+}
+.feed-element {
+    float: left;
+    width: 320px;
+    height: 100px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #efefef;
+    padding: 20px;
+}
+.pull-left {
+    float: left!important;
+}
+.media-body {
+    overflow: hidden;
+    zoom: 1;
+}
+.media-body {
+    width: 10000px;
+}
+.media-body {
+    display: table-cell;
+    vertical-align: top;
+}
+.media-body {
+    margin-top: 3px;
+}
+.feed-element img.img-circle {
+    float: left;
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
+}
+.feed-element .title {
+    font-size: 14px;
+    height: 24px;
+    line-height: 24px;
+    vertical-align: bottom;
+    color: #333;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.wb-subnav {
+    width: 110px;
+    left: 0;
+    top: 0px;
+    bottom: 0;
+    color: #333;
+    border-right: 1px solid #efefef;
+    text-align: left;
+    position: fixed;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    background: #fff;
+    z-index: 99;
+}
+.wb-subnav .subnav-scene {
+    overflow: hidden;
+    height: 78px;
+    line-height: 78px;
+    padding-left: 20px;
+}
+
+.wb-subnav ul {
+    display: none;
+    overflow: hidden;
+}
+.wb-subnav ul.single {
+    display: block;
+}
+ul li {
+    list-style: none;
+}
+.wb-subnav ul li {
+    height: 50px;
+    line-height: 50px;
+    font-size: 12px;
+}
+.wb-subnav ul li.active, .wb-subnav ul li:hover {
+    background: #E5FAF2;
+}
+.wb-subnav ul a {
+    padding-left: 25px;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+.wb-subnav ul.single li a {
+    padding-left: 20px;
+    color: #666;
+}
+.wb-subnav ul.single li.active a {
+    color: #15D292;
+}
+.plugin .admin-main{
+    margin-left: 125px;
+}

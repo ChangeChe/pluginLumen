@@ -1,0 +1,52 @@
+.spec_item .layui-btn-group .layui-btn{
+    height: 30px;
+    line-height: 32px;
+}
+.spec_item_item .layui-btn-group .layui-btn{
+    height: 28px;
+    line-height: 30px;
+    margin-top: -6px;
+}
+.spec_item .layui-form-item{
+    position: relative;
+}
+.spec_item .layui-form-item .layui-btn-group{
+    position: absolute;
+    top:0px;
+    right: 0px;
+}
+.option_header .title{
+    padding-bottom:10px;
+    text-align:center;
+}
+.option_header .input-group{
+    position: relative;
+}
+.option_header .layui-btn-group{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.option_header .layui-btn-group .layui-btn{
+    height: 30px;
+    line-height: 30px;
+}
+.file-upload-container{
+    position: relative;
+    height: 28px;
+    width: 28px;
+    border:1px solid #e7eaec;
+    display: inline-block;
+}
+.file-upload-container img{
+    height: 100%;
+    width: 100%;
+}
+.file-upload-container .upload-file{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
